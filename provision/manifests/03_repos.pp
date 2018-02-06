@@ -7,7 +7,7 @@ vcsrepo { '/var/www/default-sites/wordpress/legacy/htdocs/wordpress':
 
 vcsrepo { '/var/www/default-sites/wordpress/stable/htdocs/wordpress':
   ensure   => present,
-  revision => '4.9.3',
+  revision => '4.9.4',
   provider => git,
   source   => 'git://core.git.wordpress.org/',
 }
