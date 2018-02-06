@@ -40,6 +40,9 @@ Quickstart
 Changelog
 ---------
 
+#### 4.4.10 (6 February 2018)
+* Update default WordPress version (4.9.4)
+
 #### 4.4.9 (6 February 2018)
 * Update default WordPress version (4.9.3)
 
