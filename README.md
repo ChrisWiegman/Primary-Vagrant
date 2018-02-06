@@ -40,6 +40,9 @@ Quickstart
 Changelog
 ---------
 
+#### 4.4.9 (6 February 2018)
+* Update default WordPress version (4.9.3)
+
 #### 4.4.8 (1 February 2018)
 * Update upstream Puppet Modules
 * Upgrade default NodeJS version (9.5.0)
