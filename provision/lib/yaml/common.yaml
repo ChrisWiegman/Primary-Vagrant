@@ -1,4 +1,4 @@
-php::globals::php_version: '7.1'
+php::globals::php_version: '7.2'
 php::repo::ubuntu::ppa: 'ondrej/php'
 php::fpm::pools:
   www:
