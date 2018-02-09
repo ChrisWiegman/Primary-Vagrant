@@ -40,6 +40,10 @@ Quickstart
 Changelog
 ---------
 
+#### 4.5 (9 February 2018)
+* Updated PHP to 7.2
+* Removed default "destroy" script preventing database updates on destroy
+
 #### 4.4.10 (6 February 2018)
 * Update default WordPress version (4.9.4)
 

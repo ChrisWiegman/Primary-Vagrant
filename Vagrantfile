@@ -193,7 +193,6 @@ Vagrant.configure("2") do |root|
 	        end
 
 	        config.trigger.before :destroy do
-	            run_remote "bash /vagrant/provision/lib/bin/vagrant_destroy.sh"
 	            if File.exists?(File.join(vagrant_dir,'user-data', 'pv-destroy.sh')) then
 	                system('./user-data/pv-destroy.sh')
 	            end
@@ -225,7 +224,7 @@ Vagrant.configure("2") do |root|
         puts "\033[38;5;118m             |___/"
         puts "\033[38;5;196m================================================"
         puts ""
-        puts "  \033[38;5;80mPrimary Vagrant:   \033[38;5;118m4.4.10"
+        puts "  \033[38;5;80mPrimary Vagrant:   \033[38;5;118m4.5"
         puts ""
         puts "  \033[38;5;80mDocs:              \033[38;5;220mhttps://github.com/ChrisWiegman/Primary-Vagrant/wiki"
         puts ""

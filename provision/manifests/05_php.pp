@@ -9,7 +9,6 @@ class { '::php':
     curl         => { },
     memcache     => { },
     mbstring     => { },
-    mcrypt       => { },
     redis        => { },
     xdebug       => {
       zend            => true,
