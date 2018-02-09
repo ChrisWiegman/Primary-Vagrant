@@ -193,7 +193,6 @@ Vagrant.configure("2") do |root|
 	        end
 
 	        config.trigger.before :destroy do
-	            run_remote "bash /vagrant/provision/lib/bin/vagrant_destroy.sh"
 	            if File.exists?(File.join(vagrant_dir,'user-data', 'pv-destroy.sh')) then
 	                system('./user-data/pv-destroy.sh')
 	            end
