@@ -40,6 +40,10 @@ Quickstart
 Changelog
 ---------
 
+#### 4.5.1 (26 February 2018)
+* Update upstream Puppet Modules
+* Upgrade default NodeJS version (9.6.1)
+
 #### 4.5 (9 February 2018)
 * Updated PHP to 7.2
 * Removed default "destroy" script preventing database updates on destroy
