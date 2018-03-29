@@ -40,6 +40,10 @@ Quickstart
 Changelog
 ---------
 
+#### 4.5.6 (22 March 2018)
+* Update upstream Puppet Modules
+* Upgrade default NodeJS version (9.10.0)
+
 #### 4.5.5 (22 March 2018)
 * Update upstream Puppet Modules
 * Upgrade default NodeJS version (9.9.0)
