@@ -40,6 +40,11 @@ Quickstart
 Changelog
 ---------
 
+#### 4.6 (5 April 2018)
+* Update upstream Puppet Modules
+* Upgrade default NodeJS version (9.11.1)
+* Update default WordPress versions (4.9.5 and 4.8.6)
+
 #### 4.5.6 (22 March 2018)
 * Update upstream Puppet Modules
 * Upgrade default NodeJS version (9.10.0)
