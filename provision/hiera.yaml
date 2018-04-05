@@ -1,8 +1,5 @@
 ---
-:backends:
-  - yaml
-  - json
-:yaml:
-  :datadir: /vagrant/provision/lib/yaml
-:hierarchy:
-  - common
+version: 5
+defaults:
+  datadir: /vagrant/provision/lib/yaml
+  data_hash: yaml_data
