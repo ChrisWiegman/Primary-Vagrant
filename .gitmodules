@@ -40,3 +40,6 @@ url=https://github.com/puppetlabs/puppetlabs-apt.git
 [submodule "provision/modules/apache"]
 	path = provision/modules/apache
 	url = https://github.com/puppetlabs/puppetlabs-apache.git
+[submodule "provision/modules/archive"]
+	path = provision/modules/archive
+	url = https://github.com/voxpupuli/puppet-archive.git
