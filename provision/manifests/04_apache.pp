@@ -2,18 +2,14 @@ class { 'apache':
   require => Apt::Ppa['ppa:ondrej/php'],
 }
 
-include apache::ssl
-
-apache::module { 'rewrite': }
-apache::module { 'cache': }
-apache::module { 'cgid': }
-apache::module { 'expires': }
-apache::module { 'headers': }
-apache::module { 'suexec': }
-apache::module { 'unique_id': }
-apache::module { 'proxy': }
-apache::module { 'proxy_fcgi': }
-apache::module { 'alias': }
+class { 'apache::mod::rewrite': }
+class { 'apache::mod::cache': }
+class { 'apache::mod::expires': }
+class { 'apache::mod::headers': }
+class { 'apache::mod::suexec': }
+class { 'apache::mod::proxy': }
+class { 'apache::mod::proxy_fcgi': }
+class { 'apache::mod::ssl': }
 
 apache::vhost { 'dashboard.pv':
   serveraliases => 'pv.io pv',
