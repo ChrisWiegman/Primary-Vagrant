@@ -128,7 +128,7 @@ Vagrant.configure("2") do |root|
 
 	    # Make sure puppet is on the box
 		config.vm.provision "shell",
-	        inline: "apt-get update -qy && apt-get install -qy software-properties-common puppet"
+	        inline: "systemctl disable systemd-resolved.service && rm /etc/resolv.conf && cp /vagrant/provision/lib/conf/resolv.conf /etc/resolv.conf && service systemd-networkd restart && service systemd-resolved stop && apt-get update -qy && apt-get install -qy software-properties-common puppet"
 
 	    # Run the system setup on the first vagrant up.
 		config.vm.provision "puppet" do |puppet|
