@@ -37,3 +37,6 @@ url=https://github.com/puppetlabs/puppetlabs-apt.git
 [submodule "provision/modules/nvm"]
 	path = provision/modules/nvm
 	url = https://github.com/artberri/puppet-nvm.git
+[submodule "provision/modules/apache"]
+	path = provision/modules/apache
+	url = https://github.com/puppetlabs/puppetlabs-apache.git
