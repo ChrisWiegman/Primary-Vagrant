@@ -13,9 +13,6 @@
 [submodule "provision/modules/vcsrepo"]
 	path = provision/modules/vcsrepo
 	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
-[submodule "provision/modules/inifile"]
-	path = provision/modules/inifile
-	url = https://github.com/puppetlabs/puppetlabs-inifile.git
 [submodule "provision/modules/wget"]
 	path = provision/modules/wget
 	url = https://github.com/maestrodev/puppet-wget.git
