@@ -10,9 +10,6 @@
 [submodule "provision/environments/production/modules/mysql"]
 	path = provision/environments/production/modules/mysql
 	url = https://github.com/puppetlabs/puppetlabs-mysql.git
-[submodule "provision/environments/production/modules/oh-my-zsh"]
-	path = provision/environments/production/modules/oh-my-zsh
-	url = https://github.com/acme/puppet-acme-oh-my-zsh.git
 [submodule "provision/environments/production/modules/vcsrepo"]
 	path = provision/environments/production/modules/vcsrepo
 	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
