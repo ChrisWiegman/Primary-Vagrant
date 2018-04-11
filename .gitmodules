@@ -19,9 +19,6 @@
 [submodule "provision/modules/php"]
 	path = provision/modules/php
 url=https://github.com/voxpupuli/puppet-php.git
-[submodule "provision/modules/mailhog"]
-	path = provision/modules/mailhog
-	url = https://github.com/ftaeger/ftaeger-mailhog.git
 [submodule "provision/modules/nvm"]
 	path = provision/modules/nvm
 	url = https://github.com/artberri/puppet-nvm.git
