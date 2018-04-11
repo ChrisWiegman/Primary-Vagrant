@@ -32,11 +32,6 @@ class { 'ohmyzsh': }
 
 ohmyzsh::install { 'vagrant': }
 
-class { 'nvm':
-  user         => 'vagrant',
-  install_node => '9.11.1',
-}
-
 file { '.zshrc':
   path    => '/home/vagrant/.zshrc',
   ensure  => file,
