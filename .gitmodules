@@ -49,3 +49,9 @@
 [submodule "provision/environments/production/modules/translate"]
 	path = provision/environments/production/modules/translate
 	url = https://github.com/puppetlabs/puppetlabs-translate.git
+[submodule "provision/environments/production/modules/pe_gem"]
+	path = provision/environments/production/modules/pe_gem
+	url = https://github.com/puppetlabs/puppetlabs-pe_gem.git
+[submodule "provision/environments/production/modules/puppet_yardoc"]
+	path = provision/environments/production/modules/puppet_yardoc
+	url = https://github.com/Sharpie/puppet-puppet_yardoc.git
