@@ -40,3 +40,12 @@
 [submodule "provision/environments/production/modules/ohmyzsh"]
 	path = provision/environments/production/modules/ohmyzsh
 	url = https://github.com/acme/puppet-acme-oh-my-zsh.git
+[submodule "provision/environments/production/modules/zypprepo"]
+	path = provision/environments/production/modules/zypprepo
+	url = https://github.com/voxpupuli/puppet-zypprepo.git
+[submodule "provision/environments/production/modules/staging"]
+	path = provision/environments/production/modules/staging
+	url = https://github.com/voxpupuli/puppet-staging.git
+[submodule "provision/environments/production/modules/translate"]
+	path = provision/environments/production/modules/translate
+	url = https://github.com/puppetlabs/puppetlabs-translate.git
