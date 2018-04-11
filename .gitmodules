@@ -31,9 +31,6 @@
 [submodule "provision/environments/production/modules/mailhog"]
 	path = provision/environments/production/modules/mailhog
 	url = https://github.com/ftaeger/ftaeger-mailhog.git
-[submodule "provision/environments/production/modules/nvm"]
-	path = provision/environments/production/modules/nvm
-	url = https://github.com/artberri/puppet-nvm.git
 [submodule "provision/environments/production/modules/apache"]
 	path = provision/environments/production/modules/apache
 	url = https://github.com/puppetlabs/puppetlabs-apache.git
