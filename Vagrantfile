@@ -132,21 +132,21 @@ Vagrant.configure("2") do |root|
 
 	    # Run the system setup on the first vagrant up.
 		config.vm.provision "puppet" do |puppet|
-			puppet.manifests_path    = "provision"
-			puppet.manifest_file     = "manifests"
-			puppet.module_path       = "provision/modules"
+			puppet.environment = "production"
+            puppet.environment_path = ["vm", "/vagrant/provision/environments"]
 			puppet.facter            = { "fqdn" => "pv" }
-			puppet.hiera_config_path = "provision/hiera.yaml"
 		end
 
-	    # Run provisioning required every time we startup the box.
-	    config.vm.provision "puppet", run: "always" do |puppet|
-	        puppet.manifests_path    = "user-data/"
-	        puppet.manifest_file     = "vhosts"
-	        puppet.module_path       = "provision/modules"
-	        puppet.facter            = { "fqdn" => "pv" }
-	        puppet.hiera_config_path = "provision/hiera.yaml"
-	    end
+		# Run provisioning required every time we startup the box.
+        #config.vm.provision "puppet", run: "always" do |puppet|
+        #    puppet.manifests_path    = "user-data/"
+        #    puppet.manifest_file     = "vhosts"
+        #    puppet.module_path       = "provision/environments/production/modules"
+        #    puppet.facter            = { "fqdn" => "pv" }
+        #    puppet.hiera_config_path = "provision/hiera.yaml"
+        #end
+
+
 
 		# Vagrant Triggers
 	    #
