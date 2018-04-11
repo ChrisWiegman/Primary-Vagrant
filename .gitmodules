@@ -40,3 +40,6 @@
 [submodule "provision/environments/production/modules/archive"]
 	path = provision/environments/production/modules/archive
 	url = https://github.com/voxpupuli/puppet-archive.git
+[submodule "provision/environments/production/modules/ohmyzsh"]
+	path = provision/environments/production/modules/ohmyzsh
+	url = https://github.com/acme/puppet-acme-oh-my-zsh.git
