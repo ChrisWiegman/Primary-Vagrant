@@ -1,0 +1,45 @@
+[submodule "provision/environments/production/modules/concat"]
+	path = provision/environments/production/modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "provision/environments/production/modules/puppi"]
+	path = provision/environments/production/modules/puppi
+	url = https://github.com/example42/puppi.git
+[submodule "provision/environments/production/modules/stdlib"]
+	path = provision/environments/production/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "provision/environments/production/modules/mysql"]
+	path = provision/environments/production/modules/mysql
+	url = https://github.com/puppetlabs/puppetlabs-mysql.git
+[submodule "provision/environments/production/modules/oh-my-zsh"]
+	path = provision/environments/production/modules/oh-my-zsh
+	url = https://github.com/acme/puppet-acme-oh-my-zsh.git
+[submodule "provision/environments/production/modules/vcsrepo"]
+	path = provision/environments/production/modules/vcsrepo
+	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
+[submodule "provision/environments/production/modules/inifile"]
+	path = provision/environments/production/modules/inifile
+	url = https://github.com/puppetlabs/puppetlabs-inifile.git
+[submodule "provision/environments/production/modules/wp"]
+	path = provision/environments/production/modules/wp
+	url = https://github.com/joshbetz/puppet-wp.git
+[submodule "provision/environments/production/modules/wget"]
+	path = provision/environments/production/modules/wget
+	url = https://github.com/maestrodev/puppet-wget.git
+[submodule "provision/environments/production/modules/php"]
+	path = provision/environments/production/modules/php
+	url = https://github.com/voxpupuli/puppet-php.git
+[submodule "provision/environments/production/modules/apt"]
+	path = provision/environments/production/modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "provision/environments/production/modules/mailhog"]
+	path = provision/environments/production/modules/mailhog
+	url = https://github.com/ftaeger/ftaeger-mailhog.git
+[submodule "provision/environments/production/modules/nvm"]
+	path = provision/environments/production/modules/nvm
+	url = https://github.com/artberri/puppet-nvm.git
+[submodule "provision/environments/production/modules/apache"]
+	path = provision/environments/production/modules/apache
+	url = https://github.com/puppetlabs/puppetlabs-apache.git
+[submodule "provision/environments/production/modules/archive"]
+	path = provision/environments/production/modules/archive
+	url = https://github.com/voxpupuli/puppet-archive.git
