@@ -224,7 +224,7 @@ Vagrant.configure("2") do |root|
         puts "\033[38;5;118m             |___/"
         puts "\033[38;5;196m================================================"
         puts ""
-        puts "  \033[38;5;80mPrimary Vagrant:   \033[38;5;118m4.6"
+        puts "  \033[38;5;80mPrimary Vagrant:   \033[38;5;118m4.6.1"
         puts ""
         puts "  \033[38;5;80mDocs:              \033[38;5;220mhttps://github.com/ChrisWiegman/Primary-Vagrant/wiki"
         puts ""
