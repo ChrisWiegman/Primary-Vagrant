@@ -1,6 +1,8 @@
 Primary Vagrant
 =========
 
+*When using this system do NOT upgrade your core Vagrant software beyond version 2.0.3 as it will break your entire setup.*
+
 Primary Vagrant is intended for WordPress plugin, theme, and core development, as well as general PHP development in the UF Health environment and can be used as a replacement for local development stacks such as MAMP, XAMPP, and others.
 
 *For more information and full documentation please visit* ***[this project's wiki](https://github.com/ChrisWiegman/Primary-Vagrant/wiki).***
@@ -39,6 +41,11 @@ Quickstart
 
 Changelog
 ---------
+
+#### 4.6.1 (4 May 2018)
+* Update upstream Puppet Modules
+* Upgrade default NodeJS version (10.0.0)
+* Update PhpMyAdmin (4.9.0.1)
 
 #### 4.6 (5 April 2018)
 * Update upstream Puppet Modules
