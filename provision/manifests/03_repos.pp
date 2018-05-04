@@ -26,7 +26,7 @@ vcsrepo { '/var/www/default-sites/wordpress/core/wordpress':
 
 vcsrepo { '/var/www/default-sites/phpmyadmin/phpmyadmin':
   ensure   => present,
-  revision => 'RELEASE_4_7_9',
+  revision => 'RELEASE_4_8_0_1',
   provider => git,
   source   => 'https://github.com/phpmyadmin/phpmyadmin.git',
 } ->
